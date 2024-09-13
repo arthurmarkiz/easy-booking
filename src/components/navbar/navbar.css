@@ -1,0 +1,48 @@
+.navbar {
+    height: 70px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+}
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navButton {
+    font-family: inherit;
+    font-weight: 600;
+    padding: 7px 20px;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    color: #003580;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.navButtonLogin {
+    background: #bb4949;
+    color: #fff;
+}
+
+button {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all .3s;
+}
+
+button:hover {
+    filter: brightness(1.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
