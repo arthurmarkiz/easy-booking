@@ -30,6 +30,8 @@
     color: #003580;
     background: #fff;
     border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all .3s;
 }
 
 .navButtonLogin {
@@ -37,12 +39,7 @@
     color: #fff;
 }
 
-button {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    transition: all .3s;
-}
-
-button:hover {
+.navButton:hover {
     filter: brightness(1.2);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
